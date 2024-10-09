@@ -1,0 +1,287 @@
+.subscribe-button {
+	background-color: rgb(199, 46, 46);
+	color: white;
+	border: none;
+	/* height: 36px;
+	width: 105px; */
+	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
+	margin-left: 20px;
+	/* margin-top: 10px; */
+	transition: opacity 0.15s;
+	padding: 10px 16px 10px 16px;
+	vertical-align: top;
+}
+
+.subscribe-button:hover {
+	opacity: 0.8;
+}
+
+.subscribe-button:active {
+	opacity: 0.5;
+}
+
+.join-button {
+	background-color: white;
+	border-color: rgb(72, 72, 230);
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(72, 72, 230);
+	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
+	vertical-align: top;
+	padding: 9px 16px 9px 16px;
+	transition: background-color 0.15s,
+		color 0.15s;
+}
+
+.join-button:hover {
+	background-color: rgb(41, 118, 211);
+	color: white;
+}
+
+.join-button:active {
+	opacity: 0.7;
+}
+
+.tweet-button {
+	background-color: rgb(2, 158, 255);
+	color: white;
+	border: none;
+	border-radius: 18px;
+	font-weight: bold;
+	font-size: 15px;
+	vertical-align: top;
+	padding: 10px 16px 10px 16px;
+	transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.request-button {
+	background-color: black;
+	border: none;
+	color: white;
+	height: 30px;
+	width: 100px;
+	margin-top: 10px;
+	font-size: 10px;
+	transition: opacity 0.15s;
+}
+
+.request-button:hover {
+	opacity: 0.8;
+}
+
+.add-to-cart-button {
+	background-color: rgb(255, 216, 20);
+	border: none;
+	color: black;
+	height: 30px;
+	width: 150px;
+	margin-top: 10px;
+	border-radius: 15px;
+	font-size: 15px;
+	margin-right: 8px;
+	transition: background-color 0.15s, opacity 0.15s;
+}
+
+.add-to-cart-button:hover {
+	background-color: rgb(215, 181, 11);
+}
+
+.add-to-cart-button:active {
+	opacity: 0.7;
+}
+
+.buy-now-button {
+	border: none;
+	color: black;
+	height: 30px;
+	width: 150px;
+	border-radius: 15px;
+	font-size: 15px;
+	background-color: rgb(214, 147, 71);
+	transition: background-color 0.15s, opacity 0.15s;
+}
+
+.buy-now-button:hover {
+	background-color: rgb(180, 107, 25);
+}
+
+.buy-now-button:active {
+	opacity: 0.7;
+}
+
+.sign-button {
+	background-color: rgb(46, 164, 79);
+	border: none;
+	color: white;
+	height: 30px;
+	width: 80px;
+	margin-top: 10px;
+	border-radius: 2px;
+	font-size: 15px;
+	transition: box-shadow 0.15s;
+}
+
+.sign-button:hover {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.get-started-button {
+	background-color: rgb(121, 82, 179);
+	border: none;
+	color: white;
+	height: 30px;
+	width: 100px;
+	margin-top: 10px;
+	margin-right: 8px;
+	border-radius: 2px;
+	font-size: 15px;
+	transition: background-color 0.15s;
+}
+
+.get-started-button:hover {
+	background-color: rgb(89, 62, 130);
+}
+
+.download-button {
+	background-color: white;
+	border: 1px solid rgb(108, 117, 125);
+	color: rgb(108, 117, 125);
+	height: 30px;
+	width: 120px;
+	margin-top: 10px;
+	border-radius: 2px;
+	font-size: 15px;
+	transition: color 0.15s, background-color 0.15s;
+}
+
+.download-button:hover {
+	color: white;
+	background-color: rgb(108, 117, 125);
+}
+
+.apply-company-button {
+	background-color: rgb(10, 102, 194);
+	/* border: none; */
+	border: 1px solid rgb(85, 53, 197);
+	color: white;
+	height: 30px;
+	width: 220px;
+	margin-top: 10px;
+	margin-right: 8px;
+	border-radius: 15px;
+	font-size: 15px;
+	transition: background-color 0.15s;
+}
+
+.apply-company-button:hover {
+	background-color: rgb(85, 53, 197);
+}
+
+.save-button {
+	background-color: white;
+	border: 1px solid rgb(10, 102, 194);
+	color: rgb(10, 102, 194);
+	height: 30px;
+	width: 80px;
+	margin-top: 10px;
+	border-radius: 15px;
+	font-size: 15px;
+	transition: background-color 0.15s, color 0.15s;
+}
+
+.save-button:hover {
+	background-color: rgb(229, 233, 236);
+	border-width: 1.5px;
+}
+
+.amazon-link {
+	font-size: 15px;
+	transition: color 0.3s;
+}
+
+.amazon-link:hover {
+	color: rgb(215, 181, 11);
+}
+
+.back-button {
+	margin: 8px 8px 8px 8px;
+	font-size: 16px;
+}
+
+.back-button:hover {
+	cursor: pointer;
+}
+
+.search-result {
+	font-size: 18px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.next-button {
+	font-size: 16px;
+	margin: 8px 8px 8px 8px;
+}
+
+.next-button:hover {
+	cursor: pointer;
+}
+
+.stretch-button {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: green;
+	border: none;
+	/* margin: 8px 15px 8px 15px; */
+	padding: 8px 15px 8px 15px;
+	/* vertical-align: top; */
+	transition: padding 1s;
+}
+
+.stretch-button:hover {
+	cursor: pointer;
+	padding: 18px 36px 18px 36px;
+}
+
+.shadow-button {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: green;
+	border: none;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 15px 5px 15px;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	transition: box-shadow 0.15s, margin 0.15s;
+
+}
+
+.shadow-button:active {
+	box-shadow: none;
+	margin: 15px 10px 10px 15px;
+
+}
+
+.one-three-button {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: green;
+	border: none;
+	cursor: pointer;
+	margin: 5px 10px 5px 10px;
+	padding: 5px 10px 5px 10px;
+	transition: padding 0.15s, margin 0.15s;
+}
+
+.one-three-button:hover {
+	padding: 5px 15px 5px 15px;
+	margin: 5px 5px 5px 5px;
+}
